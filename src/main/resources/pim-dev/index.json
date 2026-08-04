@@ -1,0 +1,3236 @@
+[
+  {
+    "pimId": "local-seed-0001",
+    "identifiers": [
+      {
+        "value": "5900000000001",
+        "type": "GTIN"
+      },
+      {
+        "value": "MFN-CLEAR-01",
+        "type": "MPN"
+      }
+    ],
+    "brand": "AMD",
+    "name": "AMD ClearEdge Pro X3D",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0002",
+    "identifiers": [
+      {
+        "value": "5900000000002",
+        "type": "GTIN"
+      },
+      {
+        "value": "MZ-V8V1T0BW",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Samsung",
+    "name": "Samsung 980 NVMe 1TB",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0003",
+    "identifiers": [
+      {
+        "value": "5900000000003",
+        "type": "GTIN"
+      },
+      {
+        "value": "MFN-TWIN-01",
+        "type": "MPN"
+      }
+    ],
+    "brand": "G.Skill",
+    "name": "G.Skill TwinMatch 32GB DDR5 Kit",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0004",
+    "identifiers": [
+      {
+        "value": "5900000000004",
+        "type": "GTIN"
+      },
+      {
+        "value": "100-100001015BOX",
+        "type": "MPN"
+      }
+    ],
+    "brand": "AMD",
+    "name": "AMD Ryzen 5 7600",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0005",
+    "identifiers": [
+      {
+        "value": "5900000000005",
+        "type": "GTIN"
+      },
+      {
+        "value": "DUAL-RTX4070-O12G",
+        "type": "MPN"
+      }
+    ],
+    "brand": "ASUS",
+    "name": "ASUS Dual GeForce RTX 4070 12GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0006",
+    "identifiers": [
+      {
+        "value": "5900000000006",
+        "type": "GTIN"
+      },
+      {
+        "value": "RX7800XT-16G",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Sapphire",
+    "name": "Sapphire Pulse Radeon RX 7800 XT 16GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0007",
+    "identifiers": [
+      {
+        "value": "5900000000007",
+        "type": "GTIN"
+      },
+      {
+        "value": "RTX4090-GAMING-24G",
+        "type": "MPN"
+      }
+    ],
+    "brand": "MSI",
+    "name": "MSI GeForce RTX 4090 Gaming X Trio 24GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0008",
+    "identifiers": [
+      {
+        "value": "5900000000008",
+        "type": "GTIN"
+      },
+      {
+        "value": "100-100000910WOF",
+        "type": "MPN"
+      }
+    ],
+    "brand": "AMD",
+    "name": "AMD Ryzen 7 7800X3D",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0009",
+    "identifiers": [
+      {
+        "value": "5900000000009",
+        "type": "GTIN"
+      },
+      {
+        "value": "BX8071514600KF",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Intel",
+    "name": "Intel Core i5-14600KF",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0010",
+    "identifiers": [
+      {
+        "value": "5900000000010",
+        "type": "GTIN"
+      },
+      {
+        "value": "BX8071514900K",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Intel",
+    "name": "Intel Core i9-14900K",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0011",
+    "identifiers": [
+      {
+        "value": "5900000000011",
+        "type": "GTIN"
+      },
+      {
+        "value": "NH-D15",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Noctua",
+    "name": "Noctua NH-D15 CPU Cooler",
+    "category": "Cooler",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 700,
+    "grossWeightInGrams": 900,
+    "categoryId": "921"
+  },
+  {
+    "pimId": "local-seed-0012",
+    "identifiers": [
+      {
+        "value": "5900000000012",
+        "type": "GTIN"
+      },
+      {
+        "value": "ML360R-RGB",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Cooler Master",
+    "name": "Cooler Master MasterLiquid ML360R RGB",
+    "category": "Cooler",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 700,
+    "grossWeightInGrams": 900,
+    "categoryId": "921"
+  },
+  {
+    "pimId": "local-seed-0013",
+    "identifiers": [
+      {
+        "value": "5900000000013",
+        "type": "GTIN"
+      },
+      {
+        "value": "PA120-SE",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Thermalright",
+    "name": "Thermalright Peerless Assassin 120 SE",
+    "category": "Cooler",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 700,
+    "grossWeightInGrams": 900,
+    "categoryId": "921"
+  },
+  {
+    "pimId": "local-seed-0014",
+    "identifiers": [
+      {
+        "value": "5900000000014",
+        "type": "GTIN"
+      },
+      {
+        "value": "B650-TOMAHAWK-WIFI",
+        "type": "MPN"
+      }
+    ],
+    "brand": "MSI",
+    "name": "MSI MAG B650 Tomahawk WiFi",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0015",
+    "identifiers": [
+      {
+        "value": "5900000000015",
+        "type": "GTIN"
+      },
+      {
+        "value": "ROG-STRIX-Z790-E",
+        "type": "MPN"
+      }
+    ],
+    "brand": "ASUS",
+    "name": "ASUS ROG Strix Z790-E Gaming WiFi",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0016",
+    "identifiers": [
+      {
+        "value": "5900000000016",
+        "type": "GTIN"
+      },
+      {
+        "value": "B550M-DS3H",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Gigabyte",
+    "name": "Gigabyte B550M DS3H",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0017",
+    "identifiers": [
+      {
+        "value": "5900000000017",
+        "type": "GTIN"
+      },
+      {
+        "value": "RM850E",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair RM850e 850W 80+ Gold",
+    "category": "PSU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2200,
+    "categoryId": "963"
+  },
+  {
+    "pimId": "local-seed-0018",
+    "identifiers": [
+      {
+        "value": "5900000000018",
+        "type": "GTIN"
+      },
+      {
+        "value": "RM650",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair RM650 650W 80+ Gold",
+    "category": "PSU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2200,
+    "categoryId": "963"
+  },
+  {
+    "pimId": "local-seed-0019",
+    "identifiers": [
+      {
+        "value": "5900000000019",
+        "type": "GTIN"
+      },
+      {
+        "value": "SF750-PLAT",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair SF750 750W SFX 80+ Platinum",
+    "category": "PSU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2200,
+    "categoryId": "963"
+  },
+  {
+    "pimId": "local-seed-0020",
+    "identifiers": [
+      {
+        "value": "5900000000020",
+        "type": "GTIN"
+      },
+      {
+        "value": "980PRO-2TB",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Samsung",
+    "name": "Samsung 980 Pro 2TB NVMe Gen4",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0021",
+    "identifiers": [
+      {
+        "value": "5900000000021",
+        "type": "GTIN"
+      },
+      {
+        "value": "SN850X-1TB",
+        "type": "MPN"
+      }
+    ],
+    "brand": "WD",
+    "name": "WD Black SN850X 1TB NVMe Gen4",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0022",
+    "identifiers": [
+      {
+        "value": "5900000000022",
+        "type": "GTIN"
+      },
+      {
+        "value": "MX500-1TB",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Crucial",
+    "name": "Crucial MX500 1TB SATA SSD",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0023",
+    "identifiers": [
+      {
+        "value": "5900000000023",
+        "type": "GTIN"
+      },
+      {
+        "value": "WD40EFPX",
+        "type": "MPN"
+      }
+    ],
+    "brand": "WD",
+    "name": "WD Red Plus 4TB NAS HDD",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0024",
+    "identifiers": [
+      {
+        "value": "5900000000024",
+        "type": "GTIN"
+      },
+      {
+        "value": "F5-6000J3038F16GX2",
+        "type": "MPN"
+      }
+    ],
+    "brand": "G.Skill",
+    "name": "G.Skill Trident Z5 RGB 32GB DDR5-6000",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0025",
+    "identifiers": [
+      {
+        "value": "5900000000025",
+        "type": "GTIN"
+      },
+      {
+        "value": "CMK32GX5M2B5600",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair Vengeance 32GB DDR5-5600",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0026",
+    "identifiers": [
+      {
+        "value": "5900000000026",
+        "type": "GTIN"
+      },
+      {
+        "value": "KF432C16BB1K2",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Kingston",
+    "name": "Kingston Fury Beast 16GB DDR4-3200",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0027",
+    "identifiers": [
+      {
+        "value": "5900000000027",
+        "type": "GTIN"
+      },
+      {
+        "value": "4000D-AIRFLOW",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair 4000D Airflow Mid Tower",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 6000,
+    "grossWeightInGrams": 7000,
+    "categoryId": "237"
+  },
+  {
+    "pimId": "local-seed-0028",
+    "identifiers": [
+      {
+        "value": "5900000000028",
+        "type": "GTIN"
+      },
+      {
+        "value": "PURE-BASE-500DX",
+        "type": "MPN"
+      }
+    ],
+    "brand": "be quiet!",
+    "name": "be quiet! Pure Base 500DX",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 6000,
+    "grossWeightInGrams": 7000,
+    "categoryId": "237"
+  },
+  {
+    "pimId": "local-seed-0029",
+    "identifiers": [
+      {
+        "value": "5900000000029",
+        "type": "GTIN"
+      },
+      {
+        "value": "NR200P",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Cooler Master",
+    "name": "Cooler Master NR200P SFF",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 6000,
+    "grossWeightInGrams": 7000,
+    "categoryId": "237"
+  },
+  {
+    "pimId": "local-seed-0030",
+    "identifiers": [
+      {
+        "value": "5900000000030",
+        "type": "GTIN"
+      },
+      {
+        "value": "NF-A12X25",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Noctua",
+    "name": "Noctua NF-A12x25 PWM 120mm Fan",
+    "category": "Fan",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "1571"
+  },
+  {
+    "pimId": "local-seed-0031",
+    "identifiers": [
+      {
+        "value": "5900000000031",
+        "type": "GTIN"
+      },
+      {
+        "value": "LL120-RGB-3PK",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair LL120 RGB 120mm 3-pack",
+    "category": "Fan",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "1571"
+  },
+  {
+    "pimId": "local-seed-0032",
+    "identifiers": [
+      {
+        "value": "5900000000032",
+        "type": "GTIN"
+      },
+      {
+        "value": "VG271UP",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Acer",
+    "name": "Acer Nitro VG271UP 27 QHD 144Hz",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0033",
+    "identifiers": [
+      {
+        "value": "5900000000033",
+        "type": "GTIN"
+      },
+      {
+        "value": "LG27GP850",
+        "type": "MPN"
+      }
+    ],
+    "brand": "LG",
+    "name": "LG UltraGear 27GP850-B 27 QHD 165Hz",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0034",
+    "identifiers": [
+      {
+        "value": "5900000000034",
+        "type": "GTIN"
+      },
+      {
+        "value": "ODYSSEY-G5-32",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Samsung",
+    "name": "Samsung Odyssey G5 32 QHD Curved",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0035",
+    "identifiers": [
+      {
+        "value": "5900000000035",
+        "type": "GTIN"
+      },
+      {
+        "value": "U2723QE",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Dell",
+    "name": "Dell UltraSharp U2723QE 27 4K USB-C",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0036",
+    "identifiers": [
+      {
+        "value": "5900000000036",
+        "type": "GTIN"
+      },
+      {
+        "value": "G915-TKL",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech G915 TKL Wireless Keyboard",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0037",
+    "identifiers": [
+      {
+        "value": "5900000000037",
+        "type": "GTIN"
+      },
+      {
+        "value": "K70-RGB-PRO",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair K70 RGB Pro Mechanical Keyboard",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0038",
+    "identifiers": [
+      {
+        "value": "5900000000038",
+        "type": "GTIN"
+      },
+      {
+        "value": "KEYCHRON-K8",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Keychron",
+    "name": "Keychron K8 Wireless Mechanical",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0039",
+    "identifiers": [
+      {
+        "value": "5900000000039",
+        "type": "GTIN"
+      },
+      {
+        "value": "G-PRO-X-SUPERLIGHT",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech G Pro X Superlight Wireless",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0040",
+    "identifiers": [
+      {
+        "value": "5900000000040",
+        "type": "GTIN"
+      },
+      {
+        "value": "RAZER-VIPER-V2",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer Viper V2 Pro Wireless",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0041",
+    "identifiers": [
+      {
+        "value": "5900000000041",
+        "type": "GTIN"
+      },
+      {
+        "value": "M-DEATHADDER-V3",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer DeathAdder V3 Wired",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0042",
+    "identifiers": [
+      {
+        "value": "5900000000042",
+        "type": "GTIN"
+      },
+      {
+        "value": "MX-MASTER-3S",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech MX Master 3S Wireless",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0043",
+    "identifiers": [
+      {
+        "value": "5900000000043",
+        "type": "GTIN"
+      },
+      {
+        "value": "HYPERX-CLOUD-III",
+        "type": "MPN"
+      }
+    ],
+    "brand": "HyperX",
+    "name": "HyperX Cloud III Gaming Headset",
+    "category": "Headphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 300,
+    "grossWeightInGrams": 500,
+    "categoryId": "1637"
+  },
+  {
+    "pimId": "local-seed-0044",
+    "identifiers": [
+      {
+        "value": "5900000000044",
+        "type": "GTIN"
+      },
+      {
+        "value": "WH-1000XM5",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Sony",
+    "name": "Sony WH-1000XM5 Wireless ANC",
+    "category": "Headphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 300,
+    "grossWeightInGrams": 500,
+    "categoryId": "1637"
+  },
+  {
+    "pimId": "local-seed-0045",
+    "identifiers": [
+      {
+        "value": "5900000000045",
+        "type": "GTIN"
+      },
+      {
+        "value": "ARCTIS-NOVA-7",
+        "type": "MPN"
+      }
+    ],
+    "brand": "SteelSeries",
+    "name": "SteelSeries Arctis Nova 7 Wireless",
+    "category": "Headphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 300,
+    "grossWeightInGrams": 500,
+    "categoryId": "1637"
+  },
+  {
+    "pimId": "local-seed-0046",
+    "identifiers": [
+      {
+        "value": "5900000000046",
+        "type": "GTIN"
+      },
+      {
+        "value": "BLUE-YETI",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech Blue Yeti USB Microphone",
+    "category": "Microphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 400,
+    "grossWeightInGrams": 600,
+    "categoryId": "935"
+  },
+  {
+    "pimId": "local-seed-0047",
+    "identifiers": [
+      {
+        "value": "5900000000047",
+        "type": "GTIN"
+      },
+      {
+        "value": "HYPERX-QUADCAST-S",
+        "type": "MPN"
+      }
+    ],
+    "brand": "HyperX",
+    "name": "HyperX QuadCast S RGB USB Mic",
+    "category": "Microphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 400,
+    "grossWeightInGrams": 600,
+    "categoryId": "935"
+  },
+  {
+    "pimId": "local-seed-0048",
+    "identifiers": [
+      {
+        "value": "5900000000048",
+        "type": "GTIN"
+      },
+      {
+        "value": "BRIO-4K",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech Brio 4K Ultra HD Webcam",
+    "category": "Webcams",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "577"
+  },
+  {
+    "pimId": "local-seed-0049",
+    "identifiers": [
+      {
+        "value": "5900000000049",
+        "type": "GTIN"
+      },
+      {
+        "value": "C920E",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech C920e HD 1080p Webcam",
+    "category": "Webcams",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "577"
+  },
+  {
+    "pimId": "local-seed-0050",
+    "identifiers": [
+      {
+        "value": "5900000000050",
+        "type": "GTIN"
+      },
+      {
+        "value": "Z407-BT",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech Z407 2.1 Bluetooth Speakers",
+    "category": "Speakers",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "1081"
+  },
+  {
+    "pimId": "local-seed-0051",
+    "identifiers": [
+      {
+        "value": "5900000000051",
+        "type": "GTIN"
+      },
+      {
+        "value": "CREATIVE-PEBBLE",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Creative",
+    "name": "Creative Pebble V3 USB-C Speakers",
+    "category": "Speakers",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "1081"
+  },
+  {
+    "pimId": "local-seed-0052",
+    "identifiers": [
+      {
+        "value": "5900000000052",
+        "type": "GTIN"
+      },
+      {
+        "value": "MM700-RGB",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair MM700 RGB Extended Mousepad",
+    "category": "MousePads",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "204"
+  },
+  {
+    "pimId": "local-seed-0053",
+    "identifiers": [
+      {
+        "value": "5900000000053",
+        "type": "GTIN"
+      },
+      {
+        "value": "RAZER-GIGANTUS-V2",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer Gigantus V2 3XL Mousepad",
+    "category": "MousePads",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "204"
+  },
+  {
+    "pimId": "local-seed-0054",
+    "identifiers": [
+      {
+        "value": "5900000000054",
+        "type": "GTIN"
+      },
+      {
+        "value": "LEGION-5-PRO",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Lenovo",
+    "name": "Lenovo Legion 5 Pro 16 RTX 4060",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0055",
+    "identifiers": [
+      {
+        "value": "5900000000055",
+        "type": "GTIN"
+      },
+      {
+        "value": "TUF-A15-FA507",
+        "type": "MPN"
+      }
+    ],
+    "brand": "ASUS",
+    "name": "ASUS TUF Gaming A15 RTX 4050",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0056",
+    "identifiers": [
+      {
+        "value": "5900000000056",
+        "type": "GTIN"
+      },
+      {
+        "value": "MACBOOK-AIR-M3",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Apple",
+    "name": "Apple MacBook Air 13 M3 256GB",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0057",
+    "identifiers": [
+      {
+        "value": "5900000000057",
+        "type": "GTIN"
+      },
+      {
+        "value": "THINKPAD-E14-G5",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Lenovo",
+    "name": "Lenovo ThinkPad E14 Gen 5 i5",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0058",
+    "identifiers": [
+      {
+        "value": "5900000000058",
+        "type": "GTIN"
+      },
+      {
+        "value": "PH16-71",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Acer",
+    "name": "Acer Predator Helios 16 RTX 4070",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0059",
+    "identifiers": [
+      {
+        "value": "5900000000059",
+        "type": "GTIN"
+      },
+      {
+        "value": "OMEN-16-WF",
+        "type": "MPN"
+      }
+    ],
+    "brand": "HP",
+    "name": "HP Omen 16 RTX 4060",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0060",
+    "identifiers": [
+      {
+        "value": "5900000000060",
+        "type": "GTIN"
+      },
+      {
+        "value": "XPS-15-9530",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Dell",
+    "name": "Dell XPS 15 9530 RTX 4050",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0061",
+    "identifiers": [
+      {
+        "value": "5900000000061",
+        "type": "GTIN"
+      },
+      {
+        "value": "KATANA-15-B13V",
+        "type": "MPN"
+      }
+    ],
+    "brand": "MSI",
+    "name": "MSI Katana 15 RTX 4060",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0062",
+    "identifiers": [
+      {
+        "value": "5900000000062",
+        "type": "GTIN"
+      },
+      {
+        "value": "BX8071514700K",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Intel",
+    "name": "Intel Core i7-14700K",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0063",
+    "identifiers": [
+      {
+        "value": "5900000000063",
+        "type": "GTIN"
+      },
+      {
+        "value": "100-100000589WOF",
+        "type": "MPN"
+      }
+    ],
+    "brand": "AMD",
+    "name": "AMD Ryzen 9 7900X",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0064",
+    "identifiers": [
+      {
+        "value": "5900000000064",
+        "type": "GTIN"
+      },
+      {
+        "value": "100-100000927BOX",
+        "type": "MPN"
+      }
+    ],
+    "brand": "AMD",
+    "name": "AMD Ryzen 5 5600",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0065",
+    "identifiers": [
+      {
+        "value": "5900000000065",
+        "type": "GTIN"
+      },
+      {
+        "value": "GV-N406TWF2OC",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Gigabyte",
+    "name": "Gigabyte GeForce RTX 4060 Ti Windforce 8GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0066",
+    "identifiers": [
+      {
+        "value": "5900000000066",
+        "type": "GTIN"
+      },
+      {
+        "value": "TUF-RTX4080S-16G",
+        "type": "MPN"
+      }
+    ],
+    "brand": "ASUS",
+    "name": "ASUS TUF Gaming GeForce RTX 4080 Super 16GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0067",
+    "identifiers": [
+      {
+        "value": "5900000000067",
+        "type": "GTIN"
+      },
+      {
+        "value": "RX7900XTX-24G",
+        "type": "MPN"
+      }
+    ],
+    "brand": "PowerColor",
+    "name": "PowerColor Red Devil Radeon RX 7900 XTX 24GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0068",
+    "identifiers": [
+      {
+        "value": "5900000000068",
+        "type": "GTIN"
+      },
+      {
+        "value": "RTX4070TIS-16G",
+        "type": "MPN"
+      }
+    ],
+    "brand": "MSI",
+    "name": "MSI GeForce RTX 4070 Ti Super Ventus 16GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0069",
+    "identifiers": [
+      {
+        "value": "5900000000069",
+        "type": "GTIN"
+      },
+      {
+        "value": "SKC3000D2TB",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Kingston",
+    "name": "Kingston KC3000 2TB NVMe Gen4",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0070",
+    "identifiers": [
+      {
+        "value": "5900000000070",
+        "type": "GTIN"
+      },
+      {
+        "value": "ST2000DM008",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Seagate",
+    "name": "Seagate Barracuda 2TB SATA HDD",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0071",
+    "identifiers": [
+      {
+        "value": "5900000000071",
+        "type": "GTIN"
+      },
+      {
+        "value": "CT1000P3PSSD8",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Crucial",
+    "name": "Crucial P3 Plus 1TB NVMe Gen4",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0072",
+    "identifiers": [
+      {
+        "value": "5900000000072",
+        "type": "GTIN"
+      },
+      {
+        "value": "MU-PC1T0H",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Samsung",
+    "name": "Samsung T7 1TB Portable SSD",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0073",
+    "identifiers": [
+      {
+        "value": "5900000000073",
+        "type": "GTIN"
+      },
+      {
+        "value": "KF560C36RSK2-32",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Kingston",
+    "name": "Kingston Fury Renegade 32GB DDR5-6000",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0074",
+    "identifiers": [
+      {
+        "value": "5900000000074",
+        "type": "GTIN"
+      },
+      {
+        "value": "CP32G60C36",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Crucial",
+    "name": "Crucial Pro 32GB DDR5-6000",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0075",
+    "identifiers": [
+      {
+        "value": "5900000000075",
+        "type": "GTIN"
+      },
+      {
+        "value": "B650M-PRO-RS",
+        "type": "MPN"
+      }
+    ],
+    "brand": "ASRock",
+    "name": "ASRock B650M Pro RS",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0076",
+    "identifiers": [
+      {
+        "value": "5900000000076",
+        "type": "GTIN"
+      },
+      {
+        "value": "PRO-Z790-A",
+        "type": "MPN"
+      }
+    ],
+    "brand": "MSI",
+    "name": "MSI PRO Z790-A WiFi DDR5",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0077",
+    "identifiers": [
+      {
+        "value": "5900000000077",
+        "type": "GTIN"
+      },
+      {
+        "value": "X670-AORUS-ELITE",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Gigabyte",
+    "name": "Gigabyte X670 Aorus Elite AX",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0078",
+    "identifiers": [
+      {
+        "value": "5900000000078",
+        "type": "GTIN"
+      },
+      {
+        "value": "STRAIGHT-12-850W",
+        "type": "MPN"
+      }
+    ],
+    "brand": "be quiet!",
+    "name": "be quiet! Straight Power 12 850W 80+ Platinum",
+    "category": "PSU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2200,
+    "categoryId": "963"
+  },
+  {
+    "pimId": "local-seed-0079",
+    "identifiers": [
+      {
+        "value": "5900000000079",
+        "type": "GTIN"
+      },
+      {
+        "value": "FOCUS-GX-750",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Seasonic",
+    "name": "Seasonic Focus GX-750 80+ Gold",
+    "category": "PSU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2200,
+    "categoryId": "963"
+  },
+  {
+    "pimId": "local-seed-0080",
+    "identifiers": [
+      {
+        "value": "5900000000080",
+        "type": "GTIN"
+      },
+      {
+        "value": "LF-III-360",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Arctic",
+    "name": "Arctic Liquid Freezer III 360 AIO",
+    "category": "Cooler",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 700,
+    "grossWeightInGrams": 900,
+    "categoryId": "921"
+  },
+  {
+    "pimId": "local-seed-0081",
+    "identifiers": [
+      {
+        "value": "5900000000081",
+        "type": "GTIN"
+      },
+      {
+        "value": "DARK-ROCK-PRO-5",
+        "type": "MPN"
+      }
+    ],
+    "brand": "be quiet!",
+    "name": "be quiet! Dark Rock Pro 5",
+    "category": "Cooler",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 700,
+    "grossWeightInGrams": 900,
+    "categoryId": "921"
+  },
+  {
+    "pimId": "local-seed-0082",
+    "identifiers": [
+      {
+        "value": "5900000000082",
+        "type": "GTIN"
+      },
+      {
+        "value": "FD-NORTH-CHARCOAL",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Fractal Design",
+    "name": "Fractal Design North Charcoal",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 6000,
+    "grossWeightInGrams": 7000,
+    "categoryId": "237"
+  },
+  {
+    "pimId": "local-seed-0083",
+    "identifiers": [
+      {
+        "value": "5900000000083",
+        "type": "GTIN"
+      },
+      {
+        "value": "O11-DYNAMIC-EVO",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Lian Li",
+    "name": "Lian Li O11 Dynamic Evo",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 6000,
+    "grossWeightInGrams": 7000,
+    "categoryId": "237"
+  },
+  {
+    "pimId": "local-seed-0084",
+    "identifiers": [
+      {
+        "value": "5900000000084",
+        "type": "GTIN"
+      },
+      {
+        "value": "ARCTIC-P12-5PK",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Arctic",
+    "name": "Arctic P12 PWM PST 5-pack 120mm",
+    "category": "Fan",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "1571"
+  },
+  {
+    "pimId": "local-seed-0085",
+    "identifiers": [
+      {
+        "value": "5900000000085",
+        "type": "GTIN"
+      },
+      {
+        "value": "SILENT-WINGS-4",
+        "type": "MPN"
+      }
+    ],
+    "brand": "be quiet!",
+    "name": "be quiet! Silent Wings 4 120mm PWM",
+    "category": "Fan",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "1571"
+  },
+  {
+    "pimId": "local-seed-0086",
+    "identifiers": [
+      {
+        "value": "5900000000086",
+        "type": "GTIN"
+      },
+      {
+        "value": "AOC-24G2U",
+        "type": "MPN"
+      }
+    ],
+    "brand": "AOC",
+    "name": "AOC 24G2 24 inch 144Hz IPS",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0087",
+    "identifiers": [
+      {
+        "value": "5900000000087",
+        "type": "GTIN"
+      },
+      {
+        "value": "MAG-274QRF-QD",
+        "type": "MPN"
+      }
+    ],
+    "brand": "MSI",
+    "name": "MSI MAG 274QRF QD 27 inch QHD 170Hz",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0088",
+    "identifiers": [
+      {
+        "value": "5900000000088",
+        "type": "GTIN"
+      },
+      {
+        "value": "GB-M27Q-P",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Gigabyte",
+    "name": "Gigabyte M27Q P 27 inch QHD 170Hz",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0089",
+    "identifiers": [
+      {
+        "value": "5900000000089",
+        "type": "GTIN"
+      },
+      {
+        "value": "BLACKWIDOW-V4-PRO",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer BlackWidow V4 Pro Mechanical",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0090",
+    "identifiers": [
+      {
+        "value": "5900000000090",
+        "type": "GTIN"
+      },
+      {
+        "value": "APEX-PRO-TKL",
+        "type": "MPN"
+      }
+    ],
+    "brand": "SteelSeries",
+    "name": "SteelSeries Apex Pro TKL Gen 3",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0091",
+    "identifiers": [
+      {
+        "value": "5900000000091",
+        "type": "GTIN"
+      },
+      {
+        "value": "G502-X-PLUS",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech G502 X Plus Wireless",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0092",
+    "identifiers": [
+      {
+        "value": "5900000000092",
+        "type": "GTIN"
+      },
+      {
+        "value": "GLORIOUS-MODEL-O2",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Glorious",
+    "name": "Glorious Model O 2 Wireless",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0093",
+    "identifiers": [
+      {
+        "value": "5900000000093",
+        "type": "GTIN"
+      },
+      {
+        "value": "HD-560S",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Sennheiser",
+    "name": "Sennheiser HD 560S Open-Back",
+    "category": "Headphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 300,
+    "grossWeightInGrams": 500,
+    "categoryId": "1637"
+  },
+  {
+    "pimId": "local-seed-0094",
+    "identifiers": [
+      {
+        "value": "5900000000094",
+        "type": "GTIN"
+      },
+      {
+        "value": "DT-900-PRO-X",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic DT 900 Pro X",
+    "category": "Headphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 300,
+    "grossWeightInGrams": 500,
+    "categoryId": "1637"
+  },
+  {
+    "pimId": "local-seed-0095",
+    "identifiers": [
+      {
+        "value": "5900000000095",
+        "type": "GTIN"
+      },
+      {
+        "value": "RODE-NT-USB-PLUS",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Rode",
+    "name": "Rode NT-USB+ USB Microphone",
+    "category": "Microphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 400,
+    "grossWeightInGrams": 600,
+    "categoryId": "935"
+  },
+  {
+    "pimId": "local-seed-0096",
+    "identifiers": [
+      {
+        "value": "5900000000096",
+        "type": "GTIN"
+      },
+      {
+        "value": "ELGATO-FACECAM",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Elgato",
+    "name": "Elgato Facecam 1080p60",
+    "category": "Webcams",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "577"
+  },
+  {
+    "pimId": "local-seed-0097",
+    "identifiers": [
+      {
+        "value": "5900000000097",
+        "type": "GTIN"
+      },
+      {
+        "value": "EDIFIER-R1280T",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Edifier",
+    "name": "Edifier R1280T 2.0 Bookshelf Speakers",
+    "category": "Speakers",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "1081"
+  },
+  {
+    "pimId": "local-seed-0098",
+    "identifiers": [
+      {
+        "value": "5900000000098",
+        "type": "GTIN"
+      },
+      {
+        "value": "STEELSERIES-QCK-H",
+        "type": "MPN"
+      }
+    ],
+    "brand": "SteelSeries",
+    "name": "SteelSeries QcK Heavy Large Mousepad",
+    "category": "MousePads",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "204"
+  },
+  {
+    "pimId": "local-seed-0099",
+    "identifiers": [
+      {
+        "value": "5900000000099",
+        "type": "GTIN"
+      },
+      {
+        "value": "SANDISK-EXTREME-128",
+        "type": "MPN"
+      }
+    ],
+    "brand": "SanDisk",
+    "name": "SanDisk Extreme microSDXC 128GB",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0100",
+    "identifiers": [
+      {
+        "value": "5900000000100",
+        "type": "GTIN"
+      },
+      {
+        "value": "LOGI-MX-KEYS-S",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech MX Keys S Wireless Keyboard",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0101",
+    "identifiers": [
+      {
+        "value": "5900000000101",
+        "type": "GTIN"
+      },
+      {
+        "value": "BX8071514400F",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Intel",
+    "name": "Intel Core i5-14400F",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0102",
+    "identifiers": [
+      {
+        "value": "5900000000102",
+        "type": "GTIN"
+      },
+      {
+        "value": "BX8071513400F",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Intel",
+    "name": "Intel Core i5-13400F",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0103",
+    "identifiers": [
+      {
+        "value": "5900000000103",
+        "type": "GTIN"
+      },
+      {
+        "value": "100-100000591WOF",
+        "type": "MPN"
+      }
+    ],
+    "brand": "AMD",
+    "name": "AMD Ryzen 7 7700X",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 200,
+    "grossWeightInGrams": 300,
+    "categoryId": "989"
+  },
+  {
+    "pimId": "local-seed-0104",
+    "identifiers": [
+      {
+        "value": "5900000000104",
+        "type": "GTIN"
+      },
+      {
+        "value": "RTX4060-VENTUS-2X-8G",
+        "type": "MPN"
+      }
+    ],
+    "brand": "MSI",
+    "name": "MSI GeForce RTX 4060 Ventus 2X 8GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0105",
+    "identifiers": [
+      {
+        "value": "5900000000105",
+        "type": "GTIN"
+      },
+      {
+        "value": "GV-N407SWF3OC-12GD",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Gigabyte",
+    "name": "Gigabyte GeForce RTX 4070 SUPER Windforce OC 12GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0106",
+    "identifiers": [
+      {
+        "value": "5900000000106",
+        "type": "GTIN"
+      },
+      {
+        "value": "11330-02-20G",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Sapphire",
+    "name": "Sapphire Pulse Radeon RX 7800 XT 16GB",
+    "category": "GPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "170"
+  },
+  {
+    "pimId": "local-seed-0107",
+    "identifiers": [
+      {
+        "value": "5900000000107",
+        "type": "GTIN"
+      },
+      {
+        "value": "KF560C36BBEK2-32",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Kingston",
+    "name": "Kingston Fury Beast 32GB DDR5 6000 Kit",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0108",
+    "identifiers": [
+      {
+        "value": "5900000000108",
+        "type": "GTIN"
+      },
+      {
+        "value": "CMK32GX5M2B5600C36",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair Vengeance 32GB DDR5 5600 Kit",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0109",
+    "identifiers": [
+      {
+        "value": "5900000000109",
+        "type": "GTIN"
+      },
+      {
+        "value": "PVV532G560C36K",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Patriot",
+    "name": "Patriot Viper Venom 32GB DDR5 5600 Kit",
+    "category": "Memory",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "911"
+  },
+  {
+    "pimId": "local-seed-0110",
+    "identifiers": [
+      {
+        "value": "5900000000110",
+        "type": "GTIN"
+      },
+      {
+        "value": "PRIME-B650-PLUS",
+        "type": "MPN"
+      }
+    ],
+    "brand": "ASUS",
+    "name": "ASUS PRIME B650-PLUS",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0111",
+    "identifiers": [
+      {
+        "value": "5900000000111",
+        "type": "GTIN"
+      },
+      {
+        "value": "PRO-B760-P-WIFI",
+        "type": "MPN"
+      }
+    ],
+    "brand": "MSI",
+    "name": "MSI PRO B760-P WiFi DDR4",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0112",
+    "identifiers": [
+      {
+        "value": "5900000000112",
+        "type": "GTIN"
+      },
+      {
+        "value": "B650-AORUS-ELITE-AX",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Gigabyte",
+    "name": "Gigabyte B650 Aorus Elite AX",
+    "category": "Motherboard",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "164"
+  },
+  {
+    "pimId": "local-seed-0113",
+    "identifiers": [
+      {
+        "value": "5900000000113",
+        "type": "GTIN"
+      },
+      {
+        "value": "BN343",
+        "type": "MPN"
+      }
+    ],
+    "brand": "be quiet!",
+    "name": "be quiet! Pure Power 12 M 750W 80+ Gold",
+    "category": "PSU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2200,
+    "categoryId": "963"
+  },
+  {
+    "pimId": "local-seed-0114",
+    "identifiers": [
+      {
+        "value": "5900000000114",
+        "type": "GTIN"
+      },
+      {
+        "value": "FOCUS-GX-850",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Seasonic",
+    "name": "Seasonic Focus GX-850 80+ Gold",
+    "category": "PSU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2200,
+    "categoryId": "963"
+  },
+  {
+    "pimId": "local-seed-0115",
+    "identifiers": [
+      {
+        "value": "5900000000115",
+        "type": "GTIN"
+      },
+      {
+        "value": "CP-9020263-EU",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair RM850e 80+ Gold",
+    "category": "PSU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2200,
+    "categoryId": "963"
+  },
+  {
+    "pimId": "local-seed-0116",
+    "identifiers": [
+      {
+        "value": "5900000000116",
+        "type": "GTIN"
+      },
+      {
+        "value": "WDS100T2X0E",
+        "type": "MPN"
+      }
+    ],
+    "brand": "WD",
+    "name": "WD Black SN850X 1TB NVMe",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0117",
+    "identifiers": [
+      {
+        "value": "5900000000117",
+        "type": "GTIN"
+      },
+      {
+        "value": "CT2000P3PSSD8",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Crucial",
+    "name": "Crucial P3 Plus 2TB NVMe",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0118",
+    "identifiers": [
+      {
+        "value": "5900000000118",
+        "type": "GTIN"
+      },
+      {
+        "value": "LNM790X001T",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Lexar",
+    "name": "Lexar NM790 1TB NVMe",
+    "category": "Storage",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 50,
+    "grossWeightInGrams": 100,
+    "categoryId": "1563"
+  },
+  {
+    "pimId": "local-seed-0119",
+    "identifiers": [
+      {
+        "value": "5900000000119",
+        "type": "GTIN"
+      },
+      {
+        "value": "NH-U12S-REDUX",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Noctua",
+    "name": "Noctua NH-U12S redux",
+    "category": "Cooler",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 700,
+    "grossWeightInGrams": 900,
+    "categoryId": "921"
+  },
+  {
+    "pimId": "local-seed-0120",
+    "identifiers": [
+      {
+        "value": "5900000000120",
+        "type": "GTIN"
+      },
+      {
+        "value": "BK021",
+        "type": "MPN"
+      }
+    ],
+    "brand": "be quiet!",
+    "name": "be quiet! Dark Rock 4",
+    "category": "Cooler",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 700,
+    "grossWeightInGrams": 900,
+    "categoryId": "921"
+  },
+  {
+    "pimId": "local-seed-0121",
+    "identifiers": [
+      {
+        "value": "5900000000121",
+        "type": "GTIN"
+      },
+      {
+        "value": "ACFRE00046B",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Arctic",
+    "name": "Arctic Liquid Freezer II 240",
+    "category": "Cooler",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 700,
+    "grossWeightInGrams": 900,
+    "categoryId": "921"
+  },
+  {
+    "pimId": "local-seed-0122",
+    "identifiers": [
+      {
+        "value": "5900000000122",
+        "type": "GTIN"
+      },
+      {
+        "value": "FD-C-POA1A-02",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Fractal Design",
+    "name": "Fractal Design Pop Air Black TG",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 6000,
+    "grossWeightInGrams": 7000,
+    "categoryId": "237"
+  },
+  {
+    "pimId": "local-seed-0123",
+    "identifiers": [
+      {
+        "value": "5900000000123",
+        "type": "GTIN"
+      },
+      {
+        "value": "CC-H51FB-01",
+        "type": "MPN"
+      }
+    ],
+    "brand": "NZXT",
+    "name": "NZXT H5 Flow Black",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 6000,
+    "grossWeightInGrams": 7000,
+    "categoryId": "237"
+  },
+  {
+    "pimId": "local-seed-0124",
+    "identifiers": [
+      {
+        "value": "5900000000124",
+        "type": "GTIN"
+      },
+      {
+        "value": "CC-9011200-WW",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Corsair",
+    "name": "Corsair 4000D Airflow Black",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 6000,
+    "grossWeightInGrams": 7000,
+    "categoryId": "237"
+  },
+  {
+    "pimId": "local-seed-0125",
+    "identifiers": [
+      {
+        "value": "5900000000125",
+        "type": "GTIN"
+      },
+      {
+        "value": "NF-A12X25-PWM",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Noctua",
+    "name": "Noctua NF-A12x25 PWM 120mm",
+    "category": "Fan",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "1571"
+  },
+  {
+    "pimId": "local-seed-0126",
+    "identifiers": [
+      {
+        "value": "5900000000126",
+        "type": "GTIN"
+      },
+      {
+        "value": "ACFAN00120A",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Arctic",
+    "name": "Arctic P12 PWM PST 120mm",
+    "category": "Fan",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "1571"
+  },
+  {
+    "pimId": "local-seed-0127",
+    "identifiers": [
+      {
+        "value": "5900000000127",
+        "type": "GTIN"
+      },
+      {
+        "value": "BL093",
+        "type": "MPN"
+      }
+    ],
+    "brand": "be quiet!",
+    "name": "be quiet! Silent Wings 4 120mm PWM",
+    "category": "Fan",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "1571"
+  },
+  {
+    "pimId": "local-seed-0128",
+    "identifiers": [
+      {
+        "value": "5900000000128",
+        "type": "GTIN"
+      },
+      {
+        "value": "S2722DGM",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Dell",
+    "name": "Dell S2722DGM 27-inch Curved QHD 165Hz",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0129",
+    "identifiers": [
+      {
+        "value": "5900000000129",
+        "type": "GTIN"
+      },
+      {
+        "value": "27GR75Q-B",
+        "type": "MPN"
+      }
+    ],
+    "brand": "LG",
+    "name": "LG UltraGear 27GR75Q 27-inch QHD 165Hz",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0130",
+    "identifiers": [
+      {
+        "value": "5900000000130",
+        "type": "GTIN"
+      },
+      {
+        "value": "24G2SP",
+        "type": "MPN"
+      }
+    ],
+    "brand": "AOC",
+    "name": "AOC 24G2SP 24-inch FHD 165Hz",
+    "category": "Displays",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 4000,
+    "grossWeightInGrams": 5500,
+    "categoryId": "222"
+  },
+  {
+    "pimId": "local-seed-0131",
+    "identifiers": [
+      {
+        "value": "5900000000131",
+        "type": "GTIN"
+      },
+      {
+        "value": "920-010437",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech G413 SE Mechanical",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0132",
+    "identifiers": [
+      {
+        "value": "5900000000132",
+        "type": "GTIN"
+      },
+      {
+        "value": "RZ03-04700100",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer BlackWidow V4 X",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0133",
+    "identifiers": [
+      {
+        "value": "5900000000133",
+        "type": "GTIN"
+      },
+      {
+        "value": "64795",
+        "type": "MPN"
+      }
+    ],
+    "brand": "SteelSeries",
+    "name": "SteelSeries Apex 3",
+    "category": "Keyboards",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 900,
+    "grossWeightInGrams": 1200,
+    "categoryId": "194"
+  },
+  {
+    "pimId": "local-seed-0134",
+    "identifiers": [
+      {
+        "value": "5900000000134",
+        "type": "GTIN"
+      },
+      {
+        "value": "910-006138",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech G502 X Black",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0135",
+    "identifiers": [
+      {
+        "value": "5900000000135",
+        "type": "GTIN"
+      },
+      {
+        "value": "RZ01-04640100",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer DeathAdder V3",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0136",
+    "identifiers": [
+      {
+        "value": "5900000000136",
+        "type": "GTIN"
+      },
+      {
+        "value": "62513",
+        "type": "MPN"
+      }
+    ],
+    "brand": "SteelSeries",
+    "name": "SteelSeries Rival 3",
+    "category": "Mice",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 100,
+    "grossWeightInGrams": 200,
+    "categoryId": "195"
+  },
+  {
+    "pimId": "local-seed-0137",
+    "identifiers": [
+      {
+        "value": "5900000000137",
+        "type": "GTIN"
+      },
+      {
+        "value": "63003",
+        "type": "MPN"
+      }
+    ],
+    "brand": "SteelSeries",
+    "name": "SteelSeries QcK Large",
+    "category": "MousePads",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "204"
+  },
+  {
+    "pimId": "local-seed-0138",
+    "identifiers": [
+      {
+        "value": "5900000000138",
+        "type": "GTIN"
+      },
+      {
+        "value": "RZ02-03330200",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer Gigantus V2 Medium",
+    "category": "MousePads",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "204"
+  },
+  {
+    "pimId": "local-seed-0139",
+    "identifiers": [
+      {
+        "value": "5900000000139",
+        "type": "GTIN"
+      },
+      {
+        "value": "943-000094",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech G240 Cloth",
+    "category": "MousePads",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "204"
+  },
+  {
+    "pimId": "local-seed-0140",
+    "identifiers": [
+      {
+        "value": "5900000000140",
+        "type": "GTIN"
+      },
+      {
+        "value": "KHX-HSCP-RD",
+        "type": "MPN"
+      }
+    ],
+    "brand": "HyperX",
+    "name": "HyperX Cloud II Red",
+    "category": "Headphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 300,
+    "grossWeightInGrams": 500,
+    "categoryId": "1637"
+  },
+  {
+    "pimId": "local-seed-0141",
+    "identifiers": [
+      {
+        "value": "5900000000141",
+        "type": "GTIN"
+      },
+      {
+        "value": "981-001050",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech G435 Lightspeed",
+    "category": "Headphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 300,
+    "grossWeightInGrams": 500,
+    "categoryId": "1637"
+  },
+  {
+    "pimId": "local-seed-0142",
+    "identifiers": [
+      {
+        "value": "5900000000142",
+        "type": "GTIN"
+      },
+      {
+        "value": "61631",
+        "type": "MPN"
+      }
+    ],
+    "brand": "SteelSeries",
+    "name": "SteelSeries Arctis Nova 3",
+    "category": "Headphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 300,
+    "grossWeightInGrams": 500,
+    "categoryId": "1637"
+  },
+  {
+    "pimId": "local-seed-0143",
+    "identifiers": [
+      {
+        "value": "5900000000143",
+        "type": "GTIN"
+      },
+      {
+        "value": "988-000205",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Blue",
+    "name": "Blue Yeti Nano",
+    "category": "Microphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 400,
+    "grossWeightInGrams": 600,
+    "categoryId": "935"
+  },
+  {
+    "pimId": "local-seed-0144",
+    "identifiers": [
+      {
+        "value": "5900000000144",
+        "type": "GTIN"
+      },
+      {
+        "value": "HMIS1X-XX-BK",
+        "type": "MPN"
+      }
+    ],
+    "brand": "HyperX",
+    "name": "HyperX SoloCast",
+    "category": "Microphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 400,
+    "grossWeightInGrams": 600,
+    "categoryId": "935"
+  },
+  {
+    "pimId": "local-seed-0145",
+    "identifiers": [
+      {
+        "value": "5900000000145",
+        "type": "GTIN"
+      },
+      {
+        "value": "RZ19-03450100",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer Seiren Mini",
+    "category": "Microphones",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 400,
+    "grossWeightInGrams": 600,
+    "categoryId": "935"
+  },
+  {
+    "pimId": "local-seed-0146",
+    "identifiers": [
+      {
+        "value": "5900000000146",
+        "type": "GTIN"
+      },
+      {
+        "value": "960-001252",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech C920s Pro HD",
+    "category": "Webcams",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "577"
+  },
+  {
+    "pimId": "local-seed-0147",
+    "identifiers": [
+      {
+        "value": "5900000000147",
+        "type": "GTIN"
+      },
+      {
+        "value": "RZ19-02320100",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Razer",
+    "name": "Razer Kiyo",
+    "category": "Webcams",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "577"
+  },
+  {
+    "pimId": "local-seed-0148",
+    "identifiers": [
+      {
+        "value": "5900000000148",
+        "type": "GTIN"
+      },
+      {
+        "value": "10WAC9901",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Elgato",
+    "name": "Elgato Facecam",
+    "category": "Webcams",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 150,
+    "grossWeightInGrams": 250,
+    "categoryId": "577"
+  },
+  {
+    "pimId": "local-seed-0149",
+    "identifiers": [
+      {
+        "value": "5900000000149",
+        "type": "GTIN"
+      },
+      {
+        "value": "980-001348",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Logitech",
+    "name": "Logitech Z407 2.1",
+    "category": "Speakers",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "1081"
+  },
+  {
+    "pimId": "local-seed-0150",
+    "identifiers": [
+      {
+        "value": "5900000000150",
+        "type": "GTIN"
+      },
+      {
+        "value": "51MF1700AA000",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Creative",
+    "name": "Creative Pebble V3",
+    "category": "Speakers",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "1081"
+  },
+  {
+    "pimId": "local-seed-0151",
+    "identifiers": [
+      {
+        "value": "5900000000151",
+        "type": "GTIN"
+      },
+      {
+        "value": "R1280T",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Edifier",
+    "name": "Edifier R1280T 2.0",
+    "category": "Speakers",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 800,
+    "grossWeightInGrams": 1000,
+    "categoryId": "1081"
+  },
+  {
+    "pimId": "local-seed-0152",
+    "identifiers": [
+      {
+        "value": "5900000000152",
+        "type": "GTIN"
+      },
+      {
+        "value": "82XF004YPB",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Lenovo",
+    "name": "Lenovo IdeaPad Slim 5 14 Ryzen 5",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0153",
+    "identifiers": [
+      {
+        "value": "5900000000153",
+        "type": "GTIN"
+      },
+      {
+        "value": "X1504ZA-BQ456",
+        "type": "MPN"
+      }
+    ],
+    "brand": "ASUS",
+    "name": "ASUS VivoBook 15 i5",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  },
+  {
+    "pimId": "local-seed-0154",
+    "identifiers": [
+      {
+        "value": "5900000000154",
+        "type": "GTIN"
+      },
+      {
+        "value": "85A08EA",
+        "type": "MPN"
+      }
+    ],
+    "brand": "HP",
+    "name": "HP 255 G10 Ryzen 5",
+    "category": "Laptops",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 1800,
+    "grossWeightInGrams": 2500,
+    "categoryId": "151"
+  }
+]
