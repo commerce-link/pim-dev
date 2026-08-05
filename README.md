@@ -35,6 +35,10 @@ mvn spring-boot:run -Pdev -Dspring-boot.run.profiles=localdev,local
 
 No configuration or secrets are needed; an empty configuration map is valid.
 
+## License
+
+MIT — see [LICENSE](LICENSE).
+
 ## Refreshing the bundled data
 
 - `icecat/categories.json` — copy verbatim from the PIM service repo (`pim/src/main/resources/icecat/categories.json`).
