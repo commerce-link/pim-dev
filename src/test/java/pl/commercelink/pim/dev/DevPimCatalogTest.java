@@ -23,7 +23,7 @@ class DevPimCatalogTest {
         List<PimEntry> entries = catalog.findAll();
 
         // then
-        assertThat(entries).hasSize(154);
+        assertThat(entries).hasSize(135);
         assertThat(entries).allSatisfy(entry -> {
             assertThat(entry.pimId()).isNotBlank();
             assertThat(entry.categoryId()).isNotBlank();
@@ -34,46 +34,46 @@ class DevPimCatalogTest {
     @Test
     void findsEntryByPimId() {
         // when
-        Optional<PimEntry> entry = catalog.findByPimId("local-seed-0001");
+        Optional<PimEntry> entry = catalog.findByPimId("local-seed-0101");
 
         // then
         assertThat(entry).hasValueSatisfying(found -> {
-            assertThat(found.name()).isEqualTo("AMD ClearEdge Pro X3D");
+            assertThat(found.name()).isEqualTo("AMD Ryzen 7 9800X3D (8 rdzeni)");
             assertThat(found.brand()).isEqualTo("AMD");
             assertThat(found.categoryId()).isEqualTo("989");
-            assertThat(found.netWeightInGrams()).isEqualTo(200);
-            assertThat(found.grossWeightInGrams()).isEqualTo(300);
+            assertThat(found.netWeightInGrams()).isEqualTo(40);
+            assertThat(found.grossWeightInGrams()).isEqualTo(250);
         });
     }
 
     @Test
     void findsEntryByGtin() {
         // when
-        Optional<PimEntry> entry = catalog.findByGtin("5900000000005");
+        Optional<PimEntry> entry = catalog.findByGtin("4711636046213");
 
         // then
         assertThat(entry).hasValueSatisfying(found ->
-                assertThat(found.pimId()).isEqualTo("local-seed-0005"));
+                assertThat(found.pimId()).isEqualTo("local-seed-0204"));
     }
 
     @Test
     void findsEntryByMpn() {
         // when
-        Optional<PimEntry> entry = catalog.findByMpn("NH-D15");
+        Optional<PimEntry> entry = catalog.findByMpn("NH-D15SCH.BK");
 
         // then
         assertThat(entry).hasValueSatisfying(found ->
-                assertThat(found.name()).isEqualTo("Noctua NH-D15 CPU Cooler"));
+                assertThat(found.name()).isEqualTo("Noctua NH-D15S"));
     }
 
     @Test
     void gtinOrMpnLookupFallsBackToMpn() {
         // when
-        Optional<PimEntry> entry = catalog.findByGtinOrMpn("0000000000000", "MZ-V8V1T0BW");
+        Optional<PimEntry> entry = catalog.findByGtinOrMpn("0000000000000", "MZ-V9P2T0BW");
 
         // then
         assertThat(entry).hasValueSatisfying(found ->
-                assertThat(found.pimId()).isEqualTo("local-seed-0002"));
+                assertThat(found.pimId()).isEqualTo("local-seed-0501"));
     }
 
     @Test
@@ -106,7 +106,7 @@ class DevPimCatalogTest {
         List<Brand> brands = catalog.allBrands();
 
         // then
-        assertThat(brands).hasSize(48);
+        assertThat(brands).hasSize(26);
         assertThat(brands).extracting(Brand::name).doesNotHaveDuplicates().contains("AMD", "Intel", "Noctua");
     }
 
@@ -114,8 +114,8 @@ class DevPimCatalogTest {
     void writeOperationsAreNoOps() {
         // when / then
         assertThatCode(() -> {
-            catalog.submit(new PimEntryRequest("5900000000001", "MFN-CLEAR-01", "AMD", 1));
-            catalog.submitCategoryMatch(new CategoryMatchRequest("Acme", "5900000000001", "MFN-CLEAR-01", "AMD", "name", "CPU"));
+            catalog.submit(new PimEntryRequest("730143315289", "100-100001084WOF", "AMD", 1));
+            catalog.submitCategoryMatch(new CategoryMatchRequest("Acme", "730143315289", "100-100001084WOF", "AMD", "name", "CPU"));
             catalog.refresh();
             catalog.onEntryAdded(event -> {});
             catalog.onEntryDeleted(event -> {});

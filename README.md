@@ -6,11 +6,11 @@ the counterpart of `pim-commercelink`, which talks to the real service.
 
 ## What it serves
 
-- **Index** (`findAll`, `findByPimId`, `findByGtin`, `findByMpn`, `findByGtinOrMpn`): 154 entries
+- **Index** (`findAll`, `findByPimId`, `findByGtin`, `findByMpn`, `findByGtinOrMpn`): 135 entries
   bundled in `src/main/resources/pim-dev/index.json`. They mirror the app's local seed
-  (`local-init/seed/catalog.csv` joined with the taxonomy seed for weights), so every product
-  seeded by the local Acme/AcmeB feeds resolves to a PIM entry with `categoryId`, weights and
-  `approved = true`.
+  (`local-init/seed/catalog.csv` plus the store-owned feed of the second AcmeB connection, joined
+  with the taxonomy seed for weights), so every product seeded by the local Acme/AcmeB feeds except
+  the `SIM-*` scenario rows resolves to a PIM entry with `categoryId`, weights and `approved = true`.
 - **Categories** (`allCategories`): the bundled Icecat snapshot `src/main/resources/icecat/categories.json`
   (6798 nodes, 25 top-level), served as `PimCategory` with `lang = "pl"` — the same snapshot the PIM
   service and the app's `OfflinePimCatalog` use.
@@ -42,6 +42,7 @@ MIT — see [LICENSE](LICENSE).
 ## Refreshing the bundled data
 
 - `icecat/categories.json` — copy verbatim from the PIM service repo (`pim/src/main/resources/icecat/categories.json`).
-- `pim-dev/index.json` — regenerate from the app seed: join `local-init/seed/catalog.csv`
+- `pim-dev/index.json` — regenerate from the app seed: join `local-init/seed/catalog.csv` (without the
+  `SIM-*` rows) and `local-init/s3/stores/uma2dqukxr/supplier-feeds/acmeb-h6rxcqtb-feed.csv`
   (pimId, identifiers, brand, name, category, `pimCategoryId`) with
   `local-init/s3/datalake/taxonomy/*.csv` (weights) on EAN; `approved = true`, `subcategory = null`.
