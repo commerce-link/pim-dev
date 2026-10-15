@@ -2833,5 +2833,77 @@
     "netWeightInGrams": 7500,
     "grossWeightInGrams": 10000,
     "categoryId": "237"
+  },
+  {
+    "pimId": "local-store-0001",
+    "identifiers": [
+      {
+        "value": "730143315289",
+        "type": "GTIN",
+        "primary": true
+      },
+      {
+        "value": "STORE-OWN-01",
+        "type": "MPN",
+        "primary": true
+      }
+    ],
+    "brand": "AMD",
+    "name": "Store's own copy of AMD Ryzen 7 9800X3D (8 rdzeni)",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": null,
+    "grossWeightInGrams": null,
+    "categoryId": "989",
+    "ownerStoreId": "uma2dqukxr"
+  },
+  {
+    "pimId": "local-store-0002",
+    "identifiers": [
+      {
+        "value": "5909990000017",
+        "type": "GTIN",
+        "primary": true
+      },
+      {
+        "value": "STORE-ONLY-02",
+        "type": "MPN",
+        "primary": true
+      }
+    ],
+    "brand": "AMD",
+    "name": "Store-only product",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": null,
+    "grossWeightInGrams": null,
+    "categoryId": "989",
+    "ownerStoreId": "uma2dqukxr"
+  },
+  {
+    "pimId": "local-other-0001",
+    "identifiers": [
+      {
+        "value": "5909990000024",
+        "type": "GTIN",
+        "primary": true
+      },
+      {
+        "value": "OTHER-STORE-01",
+        "type": "MPN",
+        "primary": true
+      }
+    ],
+    "brand": "AMD",
+    "name": "Other store's product",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": null,
+    "grossWeightInGrams": null,
+    "categoryId": "989",
+    "ownerStoreId": "local-other-store"
   }
 ]

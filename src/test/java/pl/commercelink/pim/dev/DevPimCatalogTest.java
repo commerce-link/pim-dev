@@ -122,4 +122,31 @@ class DevPimCatalogTest {
             catalog.dispatch(new Object());
         }).doesNotThrowAnyException();
     }
+
+    @Test
+    void globalLookupsIgnoreStoreEntries() {
+        assertThat(catalog.findByPimId("local-store-0002")).isEmpty();
+        assertThat(catalog.findByGtin("5909990000017")).isEmpty();
+        assertThat(catalog.findAll()).noneMatch(e -> e.ownerStoreId() != null);
+    }
+
+    @Test
+    void seedStoreSeesItsEntriesFirst() {
+        String sharedGtin = catalog.forStore("uma2dqukxr").findByPimId("local-store-0001").orElseThrow().gtins().get(0);
+        assertThat(catalog.forStore("uma2dqukxr").findByGtin(sharedGtin)).map(PimEntry::pimId).contains("local-store-0001");
+        assertThat(catalog.findByGtin(sharedGtin)).map(PimEntry::pimId).hasValueSatisfying(
+                id -> assertThat(id).isNotEqualTo("local-store-0001"));
+        assertThat(catalog.forStore("uma2dqukxr").findByGtin("5909990000017")).isPresent();
+    }
+
+    @Test
+    void otherStoresEntryIsInvisibleToTheSeedStore() {
+        assertThat(catalog.forStore("uma2dqukxr").findByGtin("5909990000024")).isEmpty();
+        assertThat(catalog.forStore("local-other-store").findByGtin("5909990000024")).isPresent();
+    }
+
+    @Test
+    void brandsComeFromGlobalEntriesOnly() {
+        assertThat(catalog.allBrands()).isNotEmpty();
+    }
 }
