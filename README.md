@@ -6,7 +6,7 @@ the counterpart of `pim-commercelink`, which talks to the real service.
 
 ## What it serves
 
-- **Index** (`findAll`, `findByPimId`, `findByGtin`, `findByMpn`, `findByGtinOrMpn`): 135 entries
+- **Index** (`withGlobalData()` and `withStoreData(storeId)` views with `findAll`, `findByPimId`, `findByGtin`, …): 135 entries
   bundled in `src/main/resources/pim-dev/index.json`. They mirror the app's local seed
   (`local-init/seed/catalog.csv` plus the store-owned feed of the second AcmeB connection, joined
   with the taxonomy seed for weights), so every product seeded by the local Acme/AcmeB feeds except

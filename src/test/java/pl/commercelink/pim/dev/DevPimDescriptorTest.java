@@ -38,7 +38,7 @@ class DevPimDescriptorTest {
         PimCatalog catalog = descriptor.create(Map.of());
 
         // then
-        assertThat(catalog.findAll()).isNotEmpty();
+        assertThat(catalog.withGlobalData().findAll()).isNotEmpty();
         assertThat(catalog.allCategories()).isNotEmpty();
     }
 }
