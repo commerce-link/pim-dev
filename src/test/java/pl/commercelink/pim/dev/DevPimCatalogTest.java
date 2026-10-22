@@ -20,7 +20,7 @@ class DevPimCatalogTest {
     @Test
     void loadsAllBundledEntries() {
         // when
-        List<PimEntry> entries = catalog.findAll();
+        List<PimEntry> entries = catalog.withGlobalData().findAll();
 
         // then
         assertThat(entries).hasSize(135);
@@ -34,7 +34,7 @@ class DevPimCatalogTest {
     @Test
     void findsEntryByPimId() {
         // when
-        Optional<PimEntry> entry = catalog.findByPimId("local-seed-0101");
+        Optional<PimEntry> entry = catalog.withGlobalData().findByPimId("local-seed-0101");
 
         // then
         assertThat(entry).hasValueSatisfying(found -> {
@@ -49,7 +49,7 @@ class DevPimCatalogTest {
     @Test
     void findsEntryByGtin() {
         // when
-        Optional<PimEntry> entry = catalog.findByGtin("4711636046213");
+        Optional<PimEntry> entry = catalog.withGlobalData().findByGtin("4711636046213");
 
         // then
         assertThat(entry).hasValueSatisfying(found ->
@@ -59,7 +59,7 @@ class DevPimCatalogTest {
     @Test
     void findsEntryByMpn() {
         // when
-        Optional<PimEntry> entry = catalog.findByMpn("NH-D15SCH.BK");
+        Optional<PimEntry> entry = catalog.withGlobalData().findByMpn("NH-D15SCH.BK");
 
         // then
         assertThat(entry).hasValueSatisfying(found ->
@@ -69,7 +69,7 @@ class DevPimCatalogTest {
     @Test
     void gtinOrMpnLookupFallsBackToMpn() {
         // when
-        Optional<PimEntry> entry = catalog.findByGtinOrMpn("0000000000000", "MZ-V9P2T0BW");
+        Optional<PimEntry> entry = catalog.withGlobalData().findByGtinOrMpn("0000000000000", "MZ-V9P2T0BW");
 
         // then
         assertThat(entry).hasValueSatisfying(found ->
@@ -79,10 +79,10 @@ class DevPimCatalogTest {
     @Test
     void unknownIdentifiersYieldEmptyResults() {
         // when / then
-        assertThat(catalog.findByPimId("missing")).isEmpty();
-        assertThat(catalog.findByGtin(null)).isEmpty();
-        assertThat(catalog.findByMpn(" ")).isEmpty();
-        assertThat(catalog.findByGtinOrMpn(null, null)).isEmpty();
+        assertThat(catalog.withGlobalData().findByPimId("missing")).isEmpty();
+        assertThat(catalog.withGlobalData().findByGtin(null)).isEmpty();
+        assertThat(catalog.withGlobalData().findByMpn(" ")).isEmpty();
+        assertThat(catalog.withGlobalData().findByGtinOrMpn(null, null)).isEmpty();
     }
 
     @Test
@@ -125,24 +125,24 @@ class DevPimCatalogTest {
 
     @Test
     void globalLookupsIgnoreStoreEntries() {
-        assertThat(catalog.findByPimId("local-store-0002")).isEmpty();
-        assertThat(catalog.findByGtin("5909990000017")).isEmpty();
-        assertThat(catalog.findAll()).noneMatch(e -> e.ownerStoreId() != null);
+        assertThat(catalog.withGlobalData().findByPimId("local-store-0002")).isEmpty();
+        assertThat(catalog.withGlobalData().findByGtin("5909990000017")).isEmpty();
+        assertThat(catalog.withGlobalData().findAll()).noneMatch(e -> e.ownerStoreId() != null);
     }
 
     @Test
     void seedStoreSeesItsEntriesFirst() {
-        String sharedGtin = catalog.forStore("uma2dqukxr").findByPimId("local-store-0001").orElseThrow().gtins().get(0);
-        assertThat(catalog.forStore("uma2dqukxr").findByGtin(sharedGtin)).map(PimEntry::pimId).contains("local-store-0001");
-        assertThat(catalog.findByGtin(sharedGtin)).map(PimEntry::pimId).hasValueSatisfying(
+        String sharedGtin = catalog.withStoreData("uma2dqukxr").findByPimId("local-store-0001").orElseThrow().gtins().get(0);
+        assertThat(catalog.withStoreData("uma2dqukxr").findByGtin(sharedGtin)).map(PimEntry::pimId).contains("local-store-0001");
+        assertThat(catalog.withGlobalData().findByGtin(sharedGtin)).map(PimEntry::pimId).hasValueSatisfying(
                 id -> assertThat(id).isNotEqualTo("local-store-0001"));
-        assertThat(catalog.forStore("uma2dqukxr").findByGtin("5909990000017")).isPresent();
+        assertThat(catalog.withStoreData("uma2dqukxr").findByGtin("5909990000017")).isPresent();
     }
 
     @Test
     void otherStoresEntryIsInvisibleToTheSeedStore() {
-        assertThat(catalog.forStore("uma2dqukxr").findByGtin("5909990000024")).isEmpty();
-        assertThat(catalog.forStore("local-other-store").findByGtin("5909990000024")).isPresent();
+        assertThat(catalog.withStoreData("uma2dqukxr").findByGtin("5909990000024")).isEmpty();
+        assertThat(catalog.withStoreData("local-other-store").findByGtin("5909990000024")).isPresent();
     }
 
     @Test

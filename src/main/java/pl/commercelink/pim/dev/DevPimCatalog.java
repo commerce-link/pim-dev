@@ -12,13 +12,12 @@ import pl.commercelink.pim.api.PimCategory;
 import pl.commercelink.pim.api.PimEntry;
 import pl.commercelink.pim.api.PimEntryIndex;
 import pl.commercelink.pim.api.PimEntryRequest;
-import pl.commercelink.pim.api.PimLookup;
+import pl.commercelink.pim.api.PimView;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 import java.util.Objects;
-import java.util.Optional;
 import java.util.function.Consumer;
 
 public class DevPimCatalog implements PimCatalog {
@@ -50,33 +49,13 @@ public class DevPimCatalog implements PimCatalog {
     }
 
     @Override
-    public List<PimEntry> findAll() {
-        return index.global().findAll();
+    public PimView withGlobalData() {
+        return index.global();
     }
 
     @Override
-    public PimLookup forStore(String storeId) {
+    public PimView withStoreData(String storeId) {
         return index.forStore(storeId);
-    }
-
-    @Override
-    public Optional<PimEntry> findByPimId(String pimId) {
-        return index.global().findByPimId(pimId);
-    }
-
-    @Override
-    public Optional<PimEntry> findByGtin(String gtin) {
-        return index.global().findByGtin(gtin);
-    }
-
-    @Override
-    public Optional<PimEntry> findByMpn(String mpn) {
-        return index.global().findByMpn(mpn);
-    }
-
-    @Override
-    public Optional<PimEntry> findByGtinOrMpn(String gtin, String mpn) {
-        return index.global().findByGtinOrMpn(gtin, mpn);
     }
 
     @Override
