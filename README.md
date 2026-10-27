@@ -6,11 +6,15 @@ the counterpart of `pim-commercelink`, which talks to the real service.
 
 ## What it serves
 
-- **Index** (`withGlobalData()` and `withStoreData(storeId)` views with `findAll`, `findByPimId`, `findByGtin`, …): 135 entries
+- **Index** (`withGlobalData()` and `withStoreData(storeId)` views with `findAll`, `findByPimId`, `findByGtin`, …): 135 global entries plus 4 store-owned ones (139 in total)
   bundled in `src/main/resources/pim-dev/index.json`. They mirror the app's local seed
   (`local-init/seed/catalog.csv` plus the store-owned feed of the second AcmeB connection, joined
   with the taxonomy seed for weights), so every product seeded by the local Acme/AcmeB feeds except
   the `SIM-*` scenario rows resolves to a PIM entry with `categoryId`, weights and `approved = true`.
+  One store-owned entry is a clone: `local-store-0003` (owner `uma2dqukxr`) copies the codes of
+  `local-seed-0102` with " (klon)" appended to the name and carries `clonedFromPimId = local-seed-0102`,
+  so `withStoreData("uma2dqukxr").findCloneOf("local-seed-0102")` finds it; other stores and the global
+  view do not see it.
 - **Categories** (`allCategories`): the bundled Icecat snapshot `src/main/resources/icecat/categories.json`
   (6798 nodes, 25 top-level), served as `PimCategory` with `lang = "pl"` — the same snapshot the PIM
   service and the app's `OfflinePimCatalog` use.

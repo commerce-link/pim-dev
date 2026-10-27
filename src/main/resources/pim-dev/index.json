@@ -2883,6 +2883,31 @@
     "ownerStoreId": "uma2dqukxr"
   },
   {
+    "pimId": "local-store-0003",
+    "identifiers": [
+      {
+        "value": "730143318280",
+        "type": "GTIN",
+        "primary": true
+      },
+      {
+        "value": "100-100001973WOF",
+        "type": "MPN",
+        "primary": true
+      }
+    ],
+    "brand": "AMD",
+    "name": "AMD Ryzen 7 9850X3D (8 rdzeni) (klon)",
+    "category": "CPU",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": 40,
+    "grossWeightInGrams": 250,
+    "categoryId": "989",
+    "ownerStoreId": "uma2dqukxr",
+    "clonedFromPimId": "local-seed-0102"
+  },
+  {
     "pimId": "local-other-0001",
     "identifiers": [
       {

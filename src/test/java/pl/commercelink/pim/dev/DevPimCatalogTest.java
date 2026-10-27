@@ -146,6 +146,23 @@ class DevPimCatalogTest {
     }
 
     @Test
+    void seedCloneIsFoundBySource() {
+        PimEntry clone = catalog.withStoreData("uma2dqukxr").findCloneOf("local-seed-0102").orElseThrow();
+
+        assertThat(clone.pimId()).isEqualTo("local-store-0003");
+        assertThat(clone.ownerStoreId()).isEqualTo("uma2dqukxr");
+        assertThat(clone.clonedFromPimId()).isEqualTo("local-seed-0102");
+        assertThat(catalog.withGlobalData().findCloneOf("local-seed-0102")).isEmpty();
+    }
+
+    @Test
+    void seedCloneIsInvisibleToOtherStores() {
+        assertThat(catalog.withStoreData("local-other-store").findCloneOf("local-seed-0102")).isEmpty();
+        assertThat(catalog.withStoreData("local-other-store").findByPimId("local-store-0003")).isEmpty();
+        assertThat(catalog.withGlobalData().findByPimId("local-store-0003")).isEmpty();
+    }
+
+    @Test
     void brandsComeFromGlobalEntriesOnly() {
         assertThat(catalog.allBrands()).isNotEmpty();
     }
