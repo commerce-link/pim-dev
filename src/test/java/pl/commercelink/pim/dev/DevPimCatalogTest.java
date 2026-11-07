@@ -57,9 +57,9 @@ class DevPimCatalogTest {
     }
 
     @Test
-    void findsEntryByMpn() {
+    void findsEntryByMpnAndBrand() {
         // when
-        Optional<PimEntry> entry = catalog.withGlobalData().findByMpn("NH-D15SCH.BK");
+        Optional<PimEntry> entry = catalog.withGlobalData().findByMpnAndBrand("NH-D15SCH.BK", "Noctua");
 
         // then
         assertThat(entry).hasValueSatisfying(found ->
@@ -67,9 +67,9 @@ class DevPimCatalogTest {
     }
 
     @Test
-    void gtinOrMpnLookupFallsBackToMpn() {
+    void gtinOrMpnLookupFallsBackToMpnOfTheBrand() {
         // when
-        Optional<PimEntry> entry = catalog.withGlobalData().findByGtinOrMpn("0000000000000", "MZ-V9P2T0BW");
+        Optional<PimEntry> entry = catalog.withGlobalData().findByGtinOrMpnAndBrand("0000000000000", "MZ-V9P2T0BW", "Samsung");
 
         // then
         assertThat(entry).hasValueSatisfying(found ->
@@ -81,8 +81,8 @@ class DevPimCatalogTest {
         // when / then
         assertThat(catalog.withGlobalData().findByPimId("missing")).isEmpty();
         assertThat(catalog.withGlobalData().findByGtin(null)).isEmpty();
-        assertThat(catalog.withGlobalData().findByMpn(" ")).isEmpty();
-        assertThat(catalog.withGlobalData().findByGtinOrMpn(null, null)).isEmpty();
+        assertThat(catalog.withGlobalData().findByMpnAndBrand(" ", "Noctua")).isEmpty();
+        assertThat(catalog.withGlobalData().findByGtinOrMpnAndBrand(null, null, null)).isEmpty();
     }
 
     @Test
