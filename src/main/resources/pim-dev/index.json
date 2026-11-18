@@ -2835,6 +2835,28 @@
     "categoryId": "237"
   },
   {
+    "pimId": "dev-ean-only-1",
+    "identifiers": [
+      {
+        "value": "5900000099996",
+        "type": "GTIN"
+      },
+      {
+        "value": "VAR-MODEL-1",
+        "type": "MPN"
+      }
+    ],
+    "brand": "Acme Variants",
+    "name": "Acme Variants Model 1",
+    "category": "Case",
+    "subcategory": null,
+    "approved": true,
+    "netWeightInGrams": null,
+    "grossWeightInGrams": null,
+    "categoryId": "237",
+    "eanOnlyMatching": true
+  },
+  {
     "pimId": "local-store-0001",
     "identifiers": [
       {
