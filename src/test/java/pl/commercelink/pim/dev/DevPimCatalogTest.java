@@ -23,7 +23,7 @@ class DevPimCatalogTest {
         List<PimEntry> entries = catalog.withGlobalData().findAll();
 
         // then
-        assertThat(entries).hasSize(135);
+        assertThat(entries).hasSize(136);
         assertThat(entries).allSatisfy(entry -> {
             assertThat(entry.pimId()).isNotBlank();
             assertThat(entry.categoryId()).isNotBlank();
@@ -106,7 +106,7 @@ class DevPimCatalogTest {
         List<Brand> brands = catalog.allBrands();
 
         // then
-        assertThat(brands).hasSize(26);
+        assertThat(brands).hasSize(27);
         assertThat(brands).extracting(Brand::name).doesNotHaveDuplicates().contains("AMD", "Intel", "Noctua");
     }
 
@@ -160,6 +160,21 @@ class DevPimCatalogTest {
         assertThat(catalog.withStoreData("local-other-store").findCloneOf("local-seed-0102")).isEmpty();
         assertThat(catalog.withStoreData("local-other-store").findByPimId("local-store-0003")).isEmpty();
         assertThat(catalog.withGlobalData().findByPimId("local-store-0003")).isEmpty();
+    }
+
+    @Test
+    void bundledIndexHasOneEanOnlyEntry() {
+        // when
+        List<PimEntry> flagged = catalog.withGlobalData().findAll().stream()
+                .filter(PimEntry::eanOnlyMatching)
+                .toList();
+
+        // then
+        assertThat(flagged).singleElement().satisfies(entry -> {
+            assertThat(entry.ownerStoreId()).isNull();
+            assertThat(entry.brand()).isNotBlank();
+            assertThat(entry.mpns()).isNotEmpty();
+        });
     }
 
     @Test
